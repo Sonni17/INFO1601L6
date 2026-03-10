@@ -36,3 +36,7 @@ window.onload = function(event){
    console.log("Page has loaded");
    //do other javascript stuff here
 }
+
+const result = document.querySelector('#result');
+result.innerHTML = '<h2>My Span</h2>';
+result.style.color = 'blue';
