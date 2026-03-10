@@ -40,3 +40,10 @@ function alertFun(){
   myBtn.addEventListener("mouseover", logEventType);//logs 'mouseover'
   myBtn.addEventListener("mouseout", logEventType);// logs 'mouseout'
  //these events will fire when the mouse pointer hovers/passes over the button
+
+  function loaded() {
+    console.log('img loaded');
+  }
+
+  let img = document.querySelector('img');
+  img.addEventListener('load', loaded);
