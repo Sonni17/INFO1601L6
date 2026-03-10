@@ -40,3 +40,5 @@ window.onload = function(event){
 const result = document.querySelector('#result');
 result.innerHTML = '<h2>My Span</h2>';
 result.style.color = 'blue';
+
+<input id="myBtn" type="button" onclick="myFun()" value="click me"/>
